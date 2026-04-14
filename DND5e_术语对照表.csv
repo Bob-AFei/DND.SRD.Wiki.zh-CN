@@ -1,0 +1,116 @@
+﻿分类,英文术语,中文翻译,使用场景,示例,备注
+职业系统,Classes,职业,通用,"Fighter, Wizard",12个基础职业
+职业系统,Fighter,战士,职业名,Class: Fighter,
+职业系统,Barbarian,野蛮人,职业名,Barbaric Rage,
+职业系统,Bard,吟游诗人,职业名,Bardic Inspiration,
+职业系统,Cleric,牧师,职业名,Divine Domain,
+职业系统,Druid,德鲁伊,职业名,Wild Shape,
+职业系统,Monk,武僧,职业名,Ki Point,
+职业系统,Paladin,圣武士,职业名,Divine Smite,
+职业系统,Ranger,游侠,职业名,Favored Enemy,
+职业系统,Rogue,游荡者,职业名,Sneak Attack,
+职业系统,Sorcerer,术士,职业名,Sorcery Point,
+职业系统,Warlock,邪术师,职业名,Eldritch Invocation,
+职业系统,Wizard,法师,职业名,Spellbook,
+角色属性,Ability Scores,属性值,通用,"STR, DEX, CON",6项基础属性
+角色属性,Strength,力量,属性名,STR,
+角色属性,Dexterity,敏捷,属性名,DEX,
+角色属性,Constitution,体质,属性名,CON,
+角色属性,Intelligence,智力,属性名,INT,
+角色属性,Wisdom,感知,属性名,WIS,
+角色属性,Charisma,魅力,属性名,CHA,
+角色属性,Modifier,调整值,计算,"+2, -1",属性值的修正值
+角色属性,Proficiency Bonus,熟练加值,通用,"+2, +3",基于角色等级
+战斗系统,Armor Class,护甲等级,防御,AC 15,缩写为 AC
+战斗系统,Hit Points,生命值,通用,HP 45,缩写为 HP
+战斗系统,Hit Dice,生命骰,等级提升,"1d10, 1d8",
+战斗系统,Saving Throw,豁免检定,通用,DEX save,简写为 save
+战斗系统,Advantage,优势,骰子机制,投掷两个骰子,
+战斗系统,Disadvantage,劣势,骰子机制,投掷两个骰子取低,
+战斗系统,Skill Check,技能检定,通用,Perception check,
+战斗系统,Attack Roll,攻击检定,战斗,d20 + modifier,
+战斗系统,Damage Roll,伤害掷骰,战斗,1d6 + 3,
+战斗系统,Critical Hit,重击,战斗,On a 20,
+战斗系统,Initiative,先制,战斗开始,Roll DEX,
+装备系统,Weapons,武器,通用,Longsword,
+装备系统,Armor,护甲,通用,Plate armor,
+装备系统,Simple Weapons,简易武器,分类,"Club, Dagger",通常武器
+装备系统,Martial Weapons,军用武器,分类,"Longsword, Greataxe",特殊训练
+装备系统,Melee Weapon,近战武器,使用,Longsword,
+装备系统,Ranged Weapon,远程武器,使用,Longbow,
+装备系统,Melee Attack,近战攻击,战斗,Attack with sword,
+装备系统,Ranged Attack,远程攻击,战斗,Attack with bow,
+武器属性,Ammunition,弹药,武器属性,"Arrows, bolts",
+武器属性,Finesse,灵巧,武器属性,"Rapier, dagger",选择STR或DEX
+武器属性,Heavy,重型,武器属性,Greataxe,小型生物劣势
+武器属性,Light,轻型,武器属性,"Dagger, shortsword",双持武器
+武器属性,Loading,装填,武器属性,Crossbow,每回合一发
+武器属性,Range,射程,武器属性,60/240 (Longbow),近距/远距
+武器属性,Reach,触及,武器属性,"Glaive, pike",增加5尺触及
+武器属性,Special,特殊,武器属性,Whip,特殊规则
+武器属性,Thrown,投掷,武器属性,Handaxe,可投掷攻击
+武器属性,Two-Handed,双手,武器属性,Greataxe,需要两只手
+武器属性,Versatile,多能,武器属性,Longsword,单手或双手
+法术系统,Spells,法术,通用,Magic Missile,
+法术系统,Cantrip,戏法,分类,Fire Bolt,无需法术位
+法术系统,Spell Level,法术环阶,分类,1-9 level,1环到9环
+法术系统,School of Magic,法术学派,分类,"Evocation, Enchantment",8个学派
+法术系统,Conjuration,咒法,学派,Acid Splash,
+法术系统,Divination,预言,学派,Identify,
+法术系统,Enchantment,附魔,学派,Charm Person,
+法术系统,Evocation,塑能,学派,Fireball,
+法术系统,Illusion,幻术,学派,Silent Image,
+法术系统,Necromancy,死灵,学派,Chill Touch,
+法术系统,Transmutation,变化,学派,Druidcraft,
+法术系统,Abjuration,防护,学派,Blade Ward,
+法术属性,Casting Time,施法时间,通用,"1 action, bonus action",
+法术属性,Range,施法距离,法术,"60 feet, Self",
+法术属性,Components,法术成分,通用,"V, S, M",言语、姿态、材料
+法术属性,Verbal,言语,成分,V,
+法术属性,Somatic,姿态,成分,S,
+法术属性,Material,材料,成分,M,
+法术属性,Duration,持续时间,通用,"Instantaneous, 1 hour",
+法术属性,Instantaneous,立即,持续,Damage spell,
+法术属性,Concentration,专注,状态,"Concentration, up to 1 minute",
+法术属性,Spell Save DC,豁免DC,难度,DC 14,
+法术属性,Spell Attack,法术攻击,攻击,+4 to hit,
+怪物系统,Monsters,怪兽,通用,All creatures,
+怪物系统,Creature,生物,通用,Any entity,
+怪物系统,Size,体型,属性,"Small, Medium, Large",
+怪物系统,Type,类型,属性,"Humanoid, Beast, Fiend",
+怪物系统,Alignment,阵营,属性,"Lawful Good, Chaotic Evil",
+怪物系统,Challenge,挑战等级,难度,"CR 1/4, CR 5",
+怪物系统,Experience,经验值,奖励,250 XP,缩写为 XP
+怪物分类,Humanoid,类人生物,类型,"Acolyte, Noble",
+怪物分类,Beast,野兽,类型,"Wolf, Bear",
+怪物分类,Monstrosity,怪兽,类型,"Doppelganger, Aboleth",
+怪物分类,Undead,不死生物,类型,"Zombie, Ghost",
+怪物分类,Fiend,邪魔,类型,"Demon, Devil",
+怪物分类,Celestial,天界生物,类型,Angel,
+怪物分类,Dragon,龙类,类型,Red Dragon,
+怪物分类,Giant,巨人,类型,Frost Giant,
+怪物分类,Construct,构装生物,类型,Golem,
+怪物分类,Elemental,元素生物,类型,Fire Elemental,
+怪物分类,Ooze,泥怪,类型,Black Pudding,
+怪物分类,Plant,植物,类型,Shambling Mound,
+怪物分类,Fey,精类,类型,Dryad,
+怪物行动,Actions,动作,部分,"Multiattack, Attack",
+怪物行动,Multiattack,多重攻击,特殊,3 attacks per turn,
+怪物行动,Melee Weapon Attack,近战武器攻击,攻击,+5 to hit,
+怪物行动,Ranged Weapon Attack,远程武器攻击,攻击,+4 to hit,
+怪物行动,Melee Spell Attack,近战法术攻击,攻击,+6 to hit,
+怪物行动,Ranged Spell Attack,远程法术攻击,攻击,+5 to hit,
+怪物行动,Legendary Actions,传奇动作,特殊,3 per turn,
+怪物行动,Reaction,反应,时机,Opportunity Attack,
+其他,Races,种族,通用,"Elf, Dwarf",
+其他,Backgrounds,背景,通用,"Soldier, Noble",
+其他,Feats,专长,通用,Great Weapon Master,
+其他,Traits,特征,通用,Personality traits,
+其他,Languages,语言,通用,"Common, Elvish",
+其他,Skills,技能,通用,"Acrobatics, Perception",18个技能
+其他,Conditions,状态,通用,"Poisoned, Charmed",
+其他,Planes,位面,地点,"Material Plane, Feywild",
+其他,Pantheons,神系,宗教,"Faerûn, Greyhawk",
+其他,Equipment,装备,通用,Starting equipment,
+其他,Treasure,宝物,战利品,"Magic items, Gold",
+其他,NPC,非玩家角色,通用,"Merchant, Guard",缩写为NPC
